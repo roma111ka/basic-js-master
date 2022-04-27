@@ -25,8 +25,8 @@ function createDreamTeam( members ) {
     if (a < b) return -1;
     if (a > b) return 1;
     return 0;
-    }).join('');
-    return nameDreamTeam;
+    });
+    return nameDreamTeam.join('');
 }
 
 module.exports = {
